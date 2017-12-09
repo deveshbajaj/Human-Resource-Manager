@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.devesh.humanresourcemanager.buy_goods">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/bs_name"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/textView6"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_marginStart="45dp"
+            android:layout_toEndOf="@+id/textView6"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_marginBottom="46dp"
+            android:text="Id - No"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Id_no"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignStart="@+id/bs_name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="97dp"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="49dp"
+            android:text="Price"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bs_pice"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignStart="@+id/bs_name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bs_des"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_alignBaseline="@+id/textView8"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_alignStart="@+id/bs_pice"
+            android:maxLines="20"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_centerVertical="true"
+            android:text="Description"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/next_s"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignEnd="@+id/bs_des"
+            android:layout_below="@+id/bs_des"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="69dp"
+            android:background="@android:drawable/ic_media_ff"
+            android:text="Next"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        <Button
+            android:id="@+id/pre_b"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignEnd="@+id/textView8"
+            android:layout_alignTop="@+id/next_s"
+            android:layout_marginEnd="25dp"
+            android:background="@android:drawable/ic_media_rew"
+            android:backgroundTint="@android:color/background_light"
+            android:text="Privous"
+            android:textColor="@android:color/background_dark" />
+
+
+    </RelativeLayout>
+</FrameLayout>

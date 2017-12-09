@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1005071348905",
+    "firebase_url": "https://human-resource-manager-2ca2b.firebaseio.com",
+    "project_id": "human-resource-manager-2ca2b",
+    "storage_bucket": "human-resource-manager-2ca2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005071348905:android:91498c81395e6771",
+        "android_client_info": {
+          "package_name": "com.example.devesh.humanresourcemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005071348905-sbe21ijj7t4kc46fi7ste8vqljlsoi2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsoJhMd2A-9xITprMtXPxDWwgqBCmUvQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

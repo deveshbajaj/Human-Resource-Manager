@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.devesh.humanresourcemanager.sell_goods">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="97dp"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="49dp"
+            android:text="Price"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bs_des"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_centerVertical="true"
+            android:text="Description"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/P_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignStart="@+id/p_name"
+            android:ems="10"
+            android:hint="Product Price"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/p_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="13dp"
+            android:ems="10"
+            android:hint="Product Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/p_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bs_des"
+            android:layout_alignStart="@+id/P_price"
+            android:ems="10"
+            android:hint="Product Details"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="Publish"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/bs_des"
+            android:layout_toEndOf="@+id/bs_des"
+            android:layout_marginTop="79dp" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.devesh.humanresourcemanager.sell_services">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="53dp"
+            android:text="Servive Name"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="49dp"
+            android:text="Price per Service"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bs_des"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_below="@+id/S_price"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="32dp"
+            android:text="Description about Service"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/S_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_marginStart="22dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:ems="10"
+            android:hint="Price per Service"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/S_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5"
+            android:ems="10"
+            android:hint="Service Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/S_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_below="@+id/bs_des"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="Service  Details"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/publish_service"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/S_details"
+            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@+id/textView3"
+            android:background="@android:color/white"
+            android:elevation="0dp"
+            android:text="Publish"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/colorAccent" />
+    </RelativeLayout>
+
+</FrameLayout>

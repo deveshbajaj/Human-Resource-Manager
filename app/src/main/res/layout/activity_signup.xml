@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.devesh.humanresourcemanager.signup">
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@color/colorAccent"
+        android:layout_below="@+id/mail"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/R_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Again Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@color/colorAccent"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/Password"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/Aadar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Aadhar"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@color/colorAccent"
+        android:layout_below="@+id/Name"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/singup"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@android:drawable/ic_media_ff"
+        android:text="Sing Up"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginStart="117dp"
+        android:layout_below="@+id/R_Password"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+
+
+</RelativeLayout>
